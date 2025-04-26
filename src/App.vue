@@ -109,7 +109,7 @@ onMounted(() => {
   const styleTitle1 = "font-size: 20px;font-weight: 600;color: rgb(244,167,89);";
   const styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
   const styleContent = "color: rgb(30,152,255);";
-  const title1 = "Renoの主页\n\n";
+  const title1 = "Renoの主页\n  ";
   const title2 = `
  ██▀███  ▓█████  ███▄    █  ▒█████  
 ▓██ ▒ ██▒▓█   ▀  ██ ▀█   █ ▒██▒  ██▒
@@ -119,8 +119,9 @@ onMounted(() => {
 ░ ▒▓ ░▒▓░░░ ▒░ ░░ ▒░   ▒ ▒ ░ ▒░▒░▒░ 
   ░▒ ░ ▒░ ░ ░  ░░ ░░   ░ ▒░  ░ ▒ ▒░ 
   ░░   ░    ░      ░   ░ ░ ░ ░ ░ ▒  
-   ░        ░  ░         ░     ░ ░ `;
-  const content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
+   ░        ░  ░         ░     ░ ░ 
+   `;
+  const content = `\n版本: ${config.version}\n主页: ${config.home}`;
   console.info(`%c${title1} %c${title2} %c${content}`, styleTitle1, styleTitle2, styleContent);
 });
 
