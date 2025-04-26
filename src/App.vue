@@ -111,13 +111,11 @@ onMounted(() => {
   const styleContent = "color: rgb(30,152,255);";
   const title1 = "Renoの主页";
   const title2 = `
-#######  #######  ##   ##   ######
-##   ##  ##       ###  ##  ##    ##
-##   ##  ##       #### ##  ##    ##
-#######  #####    ## ####  ##    ##
-## ##    ##       ##  ###  ##    ##
-##  ##   ##       ##   ##  ##    ##
-##   ##  #######  ##   ##   ######`;
+ ______     ______     __   __     ______    
+/\  == \   /\  ___\   /\ "-.\ \   /\  __ \   
+\ \  __<   \ \  __\   \ \ \-.  \  \ \ \/\ \  
+ \ \_\ \_\  \ \_____\  \ \_\\"\_\  \ \_____\ 
+  \/_/ /_/   \/_____/   \/_/ \/_/   \/_____/`;
   const content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
   console.info(`%c${title1} %c${title2} %c${content}`, styleTitle1, styleTitle2, styleContent);
 });
